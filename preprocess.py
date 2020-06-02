@@ -4,7 +4,7 @@ import numpy as np
 
 def import_data(dataset):
     h=nx.read_gml(dataset,label='id')
-    h.remove_edges_from(h.selfloop_edges())
+    h.remove_edges_from(nx.selfloop_edges(h))
     adj= nx.adjacency_matrix(h)
     n=adj.shape[0]
     adj=adj.todense()
