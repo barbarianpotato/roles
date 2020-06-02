@@ -9,8 +9,8 @@ import networkx as nx
 torch.manual_seed(0)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 print ("Computing device: ", device)
-dataset = sys.argv[1]
-method = sys.argv[2]
+dataset = sys.argv[2]
+method = sys.argv[1]
 data,adj = import_data('./datasets/'+ dataset +'.gml')
 print ("Nodes: ",data[1])
 
