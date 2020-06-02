@@ -94,30 +94,10 @@ class ROB ():
                 feat_mat,role_mat = train(data,self.device,self.method)
                 so = AUC_ROC(feat_mat,role_mat,self.adj)
                 sim_mat = so.similarity()
-                non_exist_edges = self.non_exist_sim(non_exist_edges,sim_mat)
-                auc = auc + self.AUC(list(tuple(map(tuple, edges_test))),sim_mat,non_exist_edges)
+                so.flatten()
+                roc_score = so.roc_score()
+                auc = auc + roc_score
         return (auc/10)
-
-    def AUC(self,test_data,sim_mat,non_edges):
-        great = 0
-        equal = 0
-        result = 0
-        for m in range (len(test_data)):
-            sim = sim_mat[test_data[m][0]][test_data[m][1]]
-            for c in range (len(non_edges)):
-                if sim > non_edges[c][2] :
-                    great = great+1
-                if sim == non_edges[c][2] :
-                    equal = equal + 1
-            result = (result + (great+ (0.5*equal)))/(len(test_data)*len(non_edges))
-        return result
-
-    def non_exist_sim(self,non_edges , result_mat):
-        for k in range (len(non_edges)):
-            non_edges[k]= list(non_edges[k])
-            non_edges[k].append(result_mat[non_edges[k][0]][non_edges[k][1]])
-        non_edges.sort(key=lambda x: x[2],reverse=True)
-        return non_edges
 
     def plot(self,dataset):
         fig = plt.figure()
