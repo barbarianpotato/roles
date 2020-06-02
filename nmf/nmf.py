@@ -41,7 +41,7 @@ def nmf (nodeFeatureMatrix):
         # print ('Number of Roles: %s, Model Cost: %.2f, -loglikelihood: %.2f, Description Length: %.2f, MDL: %.2f (%s)' % (rank, model_cost, loglikelihood, description_length, minimum_description_length, best_W.shape[1]))
 
     # print ('MDL has not changed for these many iters:', min_des_not_changed_counter)
-    print ('\nMDL: %.2f, Roles: %s' % (minimum_description_length, best_W.shape[1]))
+    print ('MDL: %.2f, Roles: %s' % (minimum_description_length, best_W.shape[1]))
 
     return (best_W , best_H)
 

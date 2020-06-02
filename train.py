@@ -7,13 +7,14 @@ from nmf.nmf import nmf
 import numpy
 
 class autoencode ():
-    def __init__(self,data,device,epochs):
+    def __init__(self,data,device,epochs,method):
         self.adj, self.nodes = data
         self.adj = self.adj.to(device)
         self.net = Encoder(self.nodes)
         self.net.to(device)
         self.epochs = epochs
         self.feature_mat = torch.FloatTensor()
+        self.method = method
 
     def train(self):
         for epoch in range(0,self.epochs):
@@ -25,7 +26,12 @@ class autoencode ():
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-            print ("Epoch: {:05d} |  Loss: {:.5f} | Time: {:.4f}".format(epoch+1,loss.item(),time.time()-t))
+            if self.method == 'a':
+                print ("Epoch: {:05d} |  Loss: {:.5f} | Time: {:.4f}".format(epoch+1,loss.item(),time.time()-t))
+            elif self.method == 'r':
+                if epoch==self.epochs-1:
+                    print ("At epoch: {:05d} |  Loss: {:.5f} | Time: {:.4f}".format(epoch+1,loss.item(),time.time()-t))
+
         
     def feature_matrix(self):
         return self.feature_mat
@@ -49,8 +55,8 @@ class roleextraction ():
         return self.role_feat_mat
     
 
-def train (dataset,device):
-    encoder = autoencode(dataset,device,20)
+def train (dataset,device,method):
+    encoder = autoencode(dataset,device,20,method)
     encoder.train()
     print ("Applying non-negative matrix factorization.")
     nmf = roleextraction(encoder.feature_matrix_numpy())
