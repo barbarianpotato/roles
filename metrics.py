@@ -9,7 +9,6 @@ from sklearn.model_selection import KFold
 from train import train
 import matplotlib.pyplot as plt
 
-
 class AUC_ROC ():
     def __init__(self,feature_mat,role_mat,adj):
         self.y_score = numpy.array([])
