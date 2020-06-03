@@ -3,7 +3,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --output=job.%J.out
 #SBATCH --partition=gpu
-#SBATCH --nodelist=gpu[002]
+#SBATCH --nodelist=gpu[004]
 #SBATCH --job-name="roles"
 
 hostname
