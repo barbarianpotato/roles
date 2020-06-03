@@ -5,6 +5,7 @@ import torch.nn.functional as F
 from encoder import Encoder
 from nmf.nmf import nmf
 import numpy
+from sklearn.preprocessing import normalize
 
 class autoencode ():
     def __init__(self,data,device,epochs,method):
@@ -37,7 +38,9 @@ class autoencode ():
         return self.feature_mat
     
     def feature_matrix_numpy(self):
-        return self.feature_mat.cpu().detach().numpy()
+        return normalize(self.feature_mat.cpu().detach().numpy(),norm='max')
+
+
 
 class roleextraction ():
     def __init__(self, nodefeaturematrix):
@@ -49,7 +52,7 @@ class roleextraction ():
         self.node_role_mat,self.role_feat_mat =  nmf(self.nodefeaturematrix)
     
     def node_role_matrix(self):
-        return self.node_role_mat
+        return normalize(self.node_role_mat)
     
     def role_feat_matrix(self):
         return self.role_feat_mat
