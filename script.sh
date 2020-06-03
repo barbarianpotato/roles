@@ -11,7 +11,7 @@ hostname
 module load cuda/10.1
 module load cuDNN/cuda_9.2_7.2.1
 
-conda activate roles
+# conda activate roles
 python run.py r karate
 python run.py r dolphins
 python run.py r jazz
