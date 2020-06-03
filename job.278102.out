@@ -941,3 +941,4 @@ Traceback (most recent call last):
   File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
     msg_dtype if msg_dtype is not None else X.dtype)
 ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+slurmstepd: error: *** JOB 278102 ON gpu007 CANCELLED AT 2020-06-03T21:14:53 ***

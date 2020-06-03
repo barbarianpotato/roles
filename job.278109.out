@@ -1,0 +1,16 @@
+==========================================
+SLURM_CLUSTER_NAME = param-shivay
+SLURM_JOB_ACCOUNT = comp_sci_engg
+SLURM_JOB_ID = 278109
+SLURM_JOB_NAME = roles
+SLURM_JOB_NODELIST = gpu007
+SLURM_JOB_USER = aman.gupta.cse15.iitbhu
+SLURM_JOB_UID = 5180
+SLURM_JOB_PARTITION = gpu
+SLURM_TASK_PID = 116006
+SLURM_SUBMIT_DIR = /home/aman.gupta.cse15.iitbhu/roles
+SLURM_CPUS_ON_NODE = 2
+SLURM_NTASKS = 1
+SLURM_TASK_PID = 116006
+==========================================
+gpu007
