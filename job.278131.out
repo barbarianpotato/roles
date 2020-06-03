@@ -1099,3 +1099,78 @@ Traceback (most recent call last):
   File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
     msg_dtype if msg_dtype is not None else X.dtype)
 ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+Computing device:  cuda:0
+Nodes:  5242
+Computing robustness.
+
+At epoch: 00020 |  Loss: 0.00096 | Time: 0.0117
+Applying non-negative matrix factorization.
+MDL: 47019.71, Roles: 9
+At epoch: 00020 |  Loss: 0.00100 | Time: 0.0125
+Applying non-negative matrix factorization.
+MDL: 46585.07, Roles: 15
+At epoch: 00020 |  Loss: 0.00096 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 46223.86, Roles: 14
+At epoch: 00020 |  Loss: 0.00116 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 46637.21, Roles: 16
+At epoch: 00020 |  Loss: 0.00101 | Time: 0.0124
+Applying non-negative matrix factorization.
+MDL: 46588.16, Roles: 10
+At epoch: 00020 |  Loss: 0.00127 | Time: 0.0397
+Applying non-negative matrix factorization.
+MDL: 46893.08, Roles: 13
+At epoch: 00020 |  Loss: 0.00094 | Time: 0.0110
+Applying non-negative matrix factorization.
+MDL: 46494.05, Roles: 14
+At epoch: 00020 |  Loss: 0.00086 | Time: 0.0124
+Applying non-negative matrix factorization.
+MDL: 46222.31, Roles: 14
+Traceback (most recent call last):
+  File "run.py", line 30, in <module>
+    rob.calculate()
+  File "/home/aman.gupta.cse15.iitbhu/roles/metrics.py", line 71, in calculate
+    self.x_values = numpy.append(self.x_values,self.kfold (edges_new , self.nodes))
+  File "/home/aman.gupta.cse15.iitbhu/roles/metrics.py", line 97, in kfold
+    roc_score = so.roc_score()
+  File "/home/aman.gupta.cse15.iitbhu/roles/metrics.py", line 27, in roc_score
+    return roc_auc_score(self.y_true,self.y_score)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/metrics/_ranking.py", line 372, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+Computing device:  cuda:0
+Nodes:  1222
+Computing robustness.
+
+At epoch: 00020 |  Loss: 0.00285 | Time: 0.0058
+Applying non-negative matrix factorization.
+MDL: 9469.49, Roles: 9
+Traceback (most recent call last):
+  File "run.py", line 30, in <module>
+    rob.calculate()
+  File "/home/aman.gupta.cse15.iitbhu/roles/metrics.py", line 71, in calculate
+    self.x_values = numpy.append(self.x_values,self.kfold (edges_new , self.nodes))
+  File "/home/aman.gupta.cse15.iitbhu/roles/metrics.py", line 97, in kfold
+    roc_score = so.roc_score()
+  File "/home/aman.gupta.cse15.iitbhu/roles/metrics.py", line 27, in roc_score
+    return roc_auc_score(self.y_true,self.y_score)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/metrics/_ranking.py", line 372, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
