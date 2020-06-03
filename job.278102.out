@@ -1,0 +1,276 @@
+==========================================
+SLURM_CLUSTER_NAME = param-shivay
+SLURM_JOB_ACCOUNT = comp_sci_engg
+SLURM_JOB_ID = 278102
+SLURM_JOB_NAME = roles
+SLURM_JOB_NODELIST = gpu007
+SLURM_JOB_USER = aman.gupta.cse15.iitbhu
+SLURM_JOB_UID = 5180
+SLURM_JOB_PARTITION = gpu
+SLURM_TASK_PID = 114124
+SLURM_SUBMIT_DIR = /home/aman.gupta.cse15.iitbhu/roles
+SLURM_CPUS_ON_NODE = 2
+SLURM_NTASKS = 1
+SLURM_TASK_PID = 114124
+==========================================
+gpu007
+Computing device:  cuda:0
+Nodes:  34
+Computing robustness.
+
+At epoch: 00020 |  Loss: 0.04223 | Time: 0.0048
+Applying non-negative matrix factorization.
+MDL: 240.61, Roles: 4
+At epoch: 00020 |  Loss: 0.03631 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 233.78, Roles: 4
+At epoch: 00020 |  Loss: 0.04308 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 255.88, Roles: 5
+At epoch: 00020 |  Loss: 0.04644 | Time: 0.0047
+Applying non-negative matrix factorization.
+MDL: 255.65, Roles: 6
+At epoch: 00020 |  Loss: 0.04359 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 262.90, Roles: 6
+At epoch: 00020 |  Loss: 0.04299 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 233.70, Roles: 4
+At epoch: 00020 |  Loss: 0.04470 | Time: 0.0048
+Applying non-negative matrix factorization.
+MDL: 255.43, Roles: 4
+At epoch: 00020 |  Loss: 0.03754 | Time: 0.0043
+Applying non-negative matrix factorization.
+MDL: 240.51, Roles: 3
+At epoch: 00020 |  Loss: 0.04439 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 233.78, Roles: 4
+At epoch: 00020 |  Loss: 0.04586 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 253.18, Roles: 5
+AUC-ROC @ (ratio = -0.4): 0.7572
+
+At epoch: 00020 |  Loss: 0.03714 | Time: 0.0059
+Applying non-negative matrix factorization.
+MDL: 239.91, Roles: 4
+At epoch: 00020 |  Loss: 0.03920 | Time: 0.0053
+Applying non-negative matrix factorization.
+MDL: 239.33, Roles: 3
+At epoch: 00020 |  Loss: 0.04175 | Time: 0.0043
+Applying non-negative matrix factorization.
+MDL: 244.91, Roles: 5
+At epoch: 00020 |  Loss: 0.03881 | Time: 0.0061
+Applying non-negative matrix factorization.
+MDL: 240.47, Roles: 5
+At epoch: 00020 |  Loss: 0.04358 | Time: 0.0047
+Applying non-negative matrix factorization.
+MDL: 236.49, Roles: 4
+At epoch: 00020 |  Loss: 0.05555 | Time: 0.0044
+Applying non-negative matrix factorization.
+MDL: 260.06, Roles: 5
+At epoch: 00020 |  Loss: 0.04100 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 242.09, Roles: 3
+At epoch: 00020 |  Loss: 0.04099 | Time: 0.0049
+Applying non-negative matrix factorization.
+MDL: 246.40, Roles: 4
+At epoch: 00020 |  Loss: 0.04309 | Time: 0.0053
+Applying non-negative matrix factorization.
+MDL: 233.23, Roles: 5
+At epoch: 00020 |  Loss: 0.03953 | Time: 0.0056
+Applying non-negative matrix factorization.
+MDL: 229.80, Roles: 4
+AUC-ROC @ (ratio = -0.2): 0.7852
+
+At epoch: 00020 |  Loss: 0.03438 | Time: 0.0046
+Applying non-negative matrix factorization.
+MDL: 215.30, Roles: 2
+At epoch: 00020 |  Loss: 0.03182 | Time: 0.0051
+Applying non-negative matrix factorization.
+MDL: 207.31, Roles: 2
+At epoch: 00020 |  Loss: 0.03311 | Time: 0.0047
+Applying non-negative matrix factorization.
+MDL: 231.25, Roles: 2
+At epoch: 00020 |  Loss: 0.03191 | Time: 0.0046
+Applying non-negative matrix factorization.
+MDL: 228.48, Roles: 4
+At epoch: 00020 |  Loss: 0.03394 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 226.09, Roles: 4
+At epoch: 00020 |  Loss: 0.03092 | Time: 0.0050
+Applying non-negative matrix factorization.
+MDL: 234.81, Roles: 3
+At epoch: 00020 |  Loss: 0.02910 | Time: 0.0047
+Applying non-negative matrix factorization.
+MDL: 222.82, Roles: 4
+At epoch: 00020 |  Loss: 0.03209 | Time: 0.0047
+Applying non-negative matrix factorization.
+MDL: 216.89, Roles: 2
+At epoch: 00020 |  Loss: 0.03174 | Time: 0.0052
+Applying non-negative matrix factorization.
+MDL: 213.43, Roles: 2
+At epoch: 00020 |  Loss: 0.03336 | Time: 0.0053
+Applying non-negative matrix factorization.
+MDL: 235.88, Roles: 3
+AUC-ROC @ (ratio = 0.0): 0.8434
+
+At epoch: 00020 |  Loss: 0.02995 | Time: 0.0028
+Applying non-negative matrix factorization.
+MDL: 229.41, Roles: 3
+At epoch: 00020 |  Loss: 0.03395 | Time: 0.0043
+Applying non-negative matrix factorization.
+MDL: 224.05, Roles: 4
+At epoch: 00020 |  Loss: 0.03062 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 217.27, Roles: 2
+At epoch: 00020 |  Loss: 0.03044 | Time: 0.0056
+Applying non-negative matrix factorization.
+MDL: 240.86, Roles: 5
+At epoch: 00020 |  Loss: 0.02822 | Time: 0.0034
+Applying non-negative matrix factorization.
+MDL: 220.67, Roles: 4
+At epoch: 00020 |  Loss: 0.02936 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 207.96, Roles: 2
+At epoch: 00020 |  Loss: 0.03079 | Time: 0.0027
+Applying non-negative matrix factorization.
+MDL: 231.39, Roles: 5
+At epoch: 00020 |  Loss: 0.02813 | Time: 0.0057
+Applying non-negative matrix factorization.
+MDL: 225.13, Roles: 3
+At epoch: 00020 |  Loss: 0.03025 | Time: 0.0050
+Applying non-negative matrix factorization.
+MDL: 210.61, Roles: 3
+At epoch: 00020 |  Loss: 0.03152 | Time: 0.0035
+Applying non-negative matrix factorization.
+MDL: 238.47, Roles: 2
+AUC-ROC @ (ratio = 0.2): 0.7986
+
+At epoch: 00020 |  Loss: 0.02871 | Time: 0.0046
+Applying non-negative matrix factorization.
+MDL: 237.57, Roles: 5
+At epoch: 00020 |  Loss: 0.03076 | Time: 0.0048
+Applying non-negative matrix factorization.
+MDL: 194.69, Roles: 2
+At epoch: 00020 |  Loss: 0.03000 | Time: 0.0049
+Applying non-negative matrix factorization.
+MDL: 226.32, Roles: 3
+At epoch: 00020 |  Loss: 0.02844 | Time: 0.0050
+Applying non-negative matrix factorization.
+MDL: 208.34, Roles: 2
+At epoch: 00020 |  Loss: 0.02825 | Time: 0.0043
+Applying non-negative matrix factorization.
+MDL: 234.60, Roles: 5
+At epoch: 00020 |  Loss: 0.02767 | Time: 0.0055
+Applying non-negative matrix factorization.
+MDL: 230.03, Roles: 3
+At epoch: 00020 |  Loss: 0.02609 | Time: 0.0057
+Applying non-negative matrix factorization.
+MDL: 211.03, Roles: 4
+At epoch: 00020 |  Loss: 0.02881 | Time: 0.0069
+Applying non-negative matrix factorization.
+MDL: 202.23, Roles: 2
+At epoch: 00020 |  Loss: 0.02804 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 224.54, Roles: 4
+At epoch: 00020 |  Loss: 0.02742 | Time: 0.0052
+Applying non-negative matrix factorization.
+MDL: 211.50, Roles: 2
+AUC-ROC @ (ratio = 0.4): 0.7919
+
+At epoch: 00020 |  Loss: 0.02866 | Time: 0.0036
+Applying non-negative matrix factorization.
+MDL: 211.68, Roles: 2
+At epoch: 00020 |  Loss: 0.03169 | Time: 0.0046
+Applying non-negative matrix factorization.
+MDL: 224.56, Roles: 3
+At epoch: 00020 |  Loss: 0.02525 | Time: 0.0027
+Applying non-negative matrix factorization.
+MDL: 223.16, Roles: 3
+At epoch: 00020 |  Loss: 0.02672 | Time: 0.0043
+Applying non-negative matrix factorization.
+MDL: 215.20, Roles: 2
+At epoch: 00020 |  Loss: 0.02956 | Time: 0.0052
+Applying non-negative matrix factorization.
+MDL: 238.44, Roles: 4
+At epoch: 00020 |  Loss: 0.03030 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 186.02, Roles: 2
+At epoch: 00020 |  Loss: 0.02679 | Time: 0.0052
+Applying non-negative matrix factorization.
+MDL: 198.25, Roles: 2
+At epoch: 00020 |  Loss: 0.02499 | Time: 0.0055
+Applying non-negative matrix factorization.
+MDL: 216.70, Roles: 2
+At epoch: 00020 |  Loss: 0.02813 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 193.16, Roles: 2
+At epoch: 00020 |  Loss: 0.03019 | Time: 0.0027
+Applying non-negative matrix factorization.
+MDL: 199.78, Roles: 2
+AUC-ROC @ (ratio = 0.6): 0.7187
+
+At epoch: 00020 |  Loss: 0.02562 | Time: 0.0047
+Applying non-negative matrix factorization.
+MDL: 237.20, Roles: 4
+At epoch: 00020 |  Loss: 0.02512 | Time: 0.0047
+Applying non-negative matrix factorization.
+MDL: 219.18, Roles: 4
+At epoch: 00020 |  Loss: 0.02617 | Time: 0.0046
+Applying non-negative matrix factorization.
+MDL: 214.30, Roles: 3
+At epoch: 00020 |  Loss: 0.02464 | Time: 0.0048
+Applying non-negative matrix factorization.
+MDL: 219.26, Roles: 3
+At epoch: 00020 |  Loss: 0.02651 | Time: 0.0054
+Applying non-negative matrix factorization.
+MDL: 205.85, Roles: 2
+At epoch: 00020 |  Loss: 0.02690 | Time: 0.0043
+Applying non-negative matrix factorization.
+MDL: 197.19, Roles: 2
+At epoch: 00020 |  Loss: 0.02570 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 212.64, Roles: 3
+At epoch: 00020 |  Loss: 0.02393 | Time: 0.0055
+Applying non-negative matrix factorization.
+MDL: 212.10, Roles: 3
+At epoch: 00020 |  Loss: 0.02759 | Time: 0.0047
+Applying non-negative matrix factorization.
+MDL: 194.41, Roles: 2
+At epoch: 00020 |  Loss: 0.02646 | Time: 0.0052
+Applying non-negative matrix factorization.
+MDL: 221.95, Roles: 3
+AUC-ROC @ (ratio = 0.8): 0.7106
+
+At epoch: 00020 |  Loss: 0.02535 | Time: 0.0053
+Applying non-negative matrix factorization.
+MDL: 217.51, Roles: 3
+At epoch: 00020 |  Loss: 0.02500 | Time: 0.0047
+Applying non-negative matrix factorization.
+MDL: 217.33, Roles: 2
+At epoch: 00020 |  Loss: 0.02392 | Time: 0.0045
+Applying non-negative matrix factorization.
+MDL: 222.28, Roles: 3
+At epoch: 00020 |  Loss: 0.02512 | Time: 0.0052
+Applying non-negative matrix factorization.
+MDL: 211.55, Roles: 3
+At epoch: 00020 |  Loss: 0.02272 | Time: 0.0048
+Applying non-negative matrix factorization.
+MDL: 229.09, Roles: 3
+At epoch: 00020 |  Loss: 0.02328 | Time: 0.0058
+Applying non-negative matrix factorization.
+MDL: 220.22, Roles: 4
+At epoch: 00020 |  Loss: 0.02497 | Time: 0.0055
+Applying non-negative matrix factorization.
+MDL: 215.63, Roles: 4
+At epoch: 00020 |  Loss: 0.02305 | Time: 0.0047
+Applying non-negative matrix factorization.
+MDL: 209.87, Roles: 3
+At epoch: 00020 |  Loss: 0.02553 | Time: 0.0053
+Applying non-negative matrix factorization.
+MDL: 234.28, Roles: 4
+At epoch: 00020 |  Loss: 0.02495 | Time: 0.0047
+Applying non-negative matrix factorization.
+MDL: 212.02, Roles: 4
+AUC-ROC @ (ratio = 1.0): 0.7078
+
