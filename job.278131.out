@@ -1762,3 +1762,83 @@ Traceback (most recent call last):
   File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
     msg_dtype if msg_dtype is not None else X.dtype)
 ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+Computing device:  cuda:0
+Nodes:  1589
+Computing robustness.
+
+At epoch: 00020 |  Loss: 0.00196 | Time: 0.0048
+Applying non-negative matrix factorization.
+MDL: 12668.70, Roles: 16
+At epoch: 00020 |  Loss: 0.00177 | Time: 0.0038
+Applying non-negative matrix factorization.
+MDL: 12554.09, Roles: 13
+At epoch: 00020 |  Loss: 0.00216 | Time: 0.0057
+Applying non-negative matrix factorization.
+MDL: 12883.99, Roles: 11
+At epoch: 00020 |  Loss: 0.00196 | Time: 0.0048
+Applying non-negative matrix factorization.
+MDL: 12829.50, Roles: 16
+At epoch: 00020 |  Loss: 0.00210 | Time: 0.0033
+Applying non-negative matrix factorization.
+MDL: 12693.56, Roles: 16
+At epoch: 00020 |  Loss: 0.00207 | Time: 0.0034
+Applying non-negative matrix factorization.
+MDL: 12717.85, Roles: 16
+At epoch: 00020 |  Loss: 0.00191 | Time: 0.0033
+Applying non-negative matrix factorization.
+MDL: 12886.51, Roles: 14
+At epoch: 00020 |  Loss: 0.00181 | Time: 0.0054
+Applying non-negative matrix factorization.
+MDL: 12692.10, Roles: 12
+At epoch: 00020 |  Loss: 0.00201 | Time: 0.0034
+Applying non-negative matrix factorization.
+MDL: 12676.41, Roles: 14
+At epoch: 00020 |  Loss: 0.00197 | Time: 0.0033
+Applying non-negative matrix factorization.
+MDL: 12725.65, Roles: 15
+AUC-ROC @ (ratio = -0.4): 0.8440
+
+At epoch: 00020 |  Loss: 0.00179 | Time: 0.0036
+Applying non-negative matrix factorization.
+MDL: 12681.63, Roles: 8
+At epoch: 00020 |  Loss: 0.00185 | Time: 0.0049
+Applying non-negative matrix factorization.
+MDL: 12802.25, Roles: 14
+At epoch: 00020 |  Loss: 0.00188 | Time: 0.0033
+Applying non-negative matrix factorization.
+MDL: 12749.45, Roles: 10
+At epoch: 00020 |  Loss: 0.00176 | Time: 0.0033
+Applying non-negative matrix factorization.
+MDL: 12577.78, Roles: 12
+At epoch: 00020 |  Loss: 0.00175 | Time: 0.0033
+Applying non-negative matrix factorization.
+MDL: 12777.90, Roles: 10
+At epoch: 00020 |  Loss: 0.00195 | Time: 0.0033
+Applying non-negative matrix factorization.
+MDL: 12819.83, Roles: 12
+At epoch: 00020 |  Loss: 0.00184 | Time: 0.0033
+Applying non-negative matrix factorization.
+MDL: 12649.66, Roles: 12
+At epoch: 00020 |  Loss: 0.00170 | Time: 0.0034
+Applying non-negative matrix factorization.
+MDL: 12728.47, Roles: 13
+Traceback (most recent call last):
+  File "run.py", line 30, in <module>
+    rob.calculate()
+  File "/home/aman.gupta.cse15.iitbhu/roles/metrics.py", line 71, in calculate
+    self.x_values = numpy.append(self.x_values,self.kfold (edges_new , self.nodes))
+  File "/home/aman.gupta.cse15.iitbhu/roles/metrics.py", line 97, in kfold
+    roc_score = so.roc_score()
+  File "/home/aman.gupta.cse15.iitbhu/roles/metrics.py", line 27, in roc_score
+    return roc_auc_score(self.y_true,self.y_score)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/metrics/_ranking.py", line 372, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 646, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/sklearn/utils/validation.py", line 100, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
