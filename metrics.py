@@ -43,8 +43,10 @@ class AUC_ROC ():
             for j in range (k,len(self.feature_mat)):
                 sim_mat_feat[k][j] = numpy.sum(numpy.multiply(self.feature_mat[k],self.feature_mat[j])) / (mod_square_feat[k]*mod_square_feat[j])
                 sim_mat_roles[k][j] = numpy.sum(numpy.multiply(self.role_mat[k],self.role_mat[j])) / (mod_square_role[k]*mod_square_role[j])
-                self.sim_mat[k][j]=((sim_mat_feat[k][j]+sim_mat_roles[k][j])/2)
-                self.sim_mat[j][k]=((sim_mat_feat[k][j]+sim_mat_roles[k][j])/2)
+                agg_sim = ((sim_mat_feat[k][j]+sim_mat_roles[k][j])/2) 
+                agg_sim = 0.0 if numpy.isnan(agg_sim) else agg_sim
+                self.sim_mat[k][j]=agg_sim
+                self.sim_mat[j][k]=agg_sim
         return self.sim_mat
 
 

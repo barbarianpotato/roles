@@ -11,8 +11,10 @@ print ("Computing device: ", device)
 dataset = sys.argv[2]
 method = sys.argv[1]
 data,adj = import_data('./datasets/'+ dataset +'.gml')
+print ("----------------------------------------------")
+print ("Dataset: ",dataset)
 print ("Nodes: ",data[1])
-
+print ("----------------------------------------------")
 if method=='a':
     print ("Computing precision & AUC-ROC.\n")
     feat_mat,role_mat = train(data,device,method)
