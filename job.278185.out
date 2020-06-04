@@ -277,3 +277,278 @@ Applying non-negative matrix factorization.
 MDL: 35070.30, Roles: 2
 AUC-ROC @ (ratio = 1.0): 0.7504
 
+Computing device:  cuda:0
+----------------------------------------------
+Dataset:  GrQc_U
+Nodes:  5242
+----------------------------------------------
+Computing robustness.
+
+At epoch: 00020 |  Loss: 0.00096 | Time: 0.0121
+Applying non-negative matrix factorization.
+MDL: 46561.73, Roles: 15
+At epoch: 00020 |  Loss: 0.00100 | Time: 0.0114
+Applying non-negative matrix factorization.
+MDL: 46649.94, Roles: 16
+At epoch: 00020 |  Loss: 0.00095 | Time: 0.0128
+Applying non-negative matrix factorization.
+MDL: 46159.47, Roles: 11
+At epoch: 00020 |  Loss: 0.00115 | Time: 0.0125
+Applying non-negative matrix factorization.
+MDL: 46479.28, Roles: 16
+At epoch: 00020 |  Loss: 0.00103 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 47048.61, Roles: 10
+At epoch: 00020 |  Loss: 0.00129 | Time: 0.0114
+Applying non-negative matrix factorization.
+MDL: 46674.96, Roles: 16
+At epoch: 00020 |  Loss: 0.00096 | Time: 0.0626
+Applying non-negative matrix factorization.
+MDL: 46942.77, Roles: 16
+At epoch: 00020 |  Loss: 0.00086 | Time: 0.0126
+Applying non-negative matrix factorization.
+MDL: 45188.04, Roles: 13
+At epoch: 00020 |  Loss: 0.00096 | Time: 0.0124
+Applying non-negative matrix factorization.
+MDL: 46439.58, Roles: 11
+At epoch: 00020 |  Loss: 0.00101 | Time: 0.0115
+Applying non-negative matrix factorization.
+MDL: 47107.68, Roles: 15
+AUC-ROC @ (ratio = -0.4): 0.7783
+
+At epoch: 00020 |  Loss: 0.00104 | Time: 0.0127
+Applying non-negative matrix factorization.
+MDL: 46460.28, Roles: 16
+At epoch: 00020 |  Loss: 0.00103 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 45865.07, Roles: 15
+At epoch: 00020 |  Loss: 0.00096 | Time: 0.0126
+Applying non-negative matrix factorization.
+MDL: 46380.25, Roles: 11
+At epoch: 00020 |  Loss: 0.00126 | Time: 0.0111
+Applying non-negative matrix factorization.
+MDL: 46584.21, Roles: 15
+At epoch: 00020 |  Loss: 0.00104 | Time: 0.0112
+Applying non-negative matrix factorization.
+MDL: 46749.98, Roles: 13
+At epoch: 00020 |  Loss: 0.00097 | Time: 0.0213
+Applying non-negative matrix factorization.
+MDL: 46765.00, Roles: 16
+At epoch: 00020 |  Loss: 0.00088 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 46204.82, Roles: 14
+At epoch: 00020 |  Loss: 0.00108 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 46286.92, Roles: 13
+At epoch: 00020 |  Loss: 0.00103 | Time: 0.0110
+Applying non-negative matrix factorization.
+MDL: 47026.94, Roles: 13
+At epoch: 00020 |  Loss: 0.00117 | Time: 0.0227
+Applying non-negative matrix factorization.
+MDL: 46459.98, Roles: 13
+AUC-ROC @ (ratio = -0.2): 0.8406
+
+At epoch: 00020 |  Loss: 0.00087 | Time: 0.0130
+Applying non-negative matrix factorization.
+MDL: 46971.10, Roles: 16
+At epoch: 00020 |  Loss: 0.00099 | Time: 0.0124
+Applying non-negative matrix factorization.
+MDL: 46375.31, Roles: 15
+At epoch: 00020 |  Loss: 0.00088 | Time: 0.0647
+Applying non-negative matrix factorization.
+MDL: 46524.45, Roles: 11
+At epoch: 00020 |  Loss: 0.00101 | Time: 0.0112
+Applying non-negative matrix factorization.
+MDL: 46126.54, Roles: 15
+At epoch: 00020 |  Loss: 0.00105 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 46602.20, Roles: 9
+At epoch: 00020 |  Loss: 0.00085 | Time: 0.0125
+Applying non-negative matrix factorization.
+MDL: 46588.53, Roles: 8
+At epoch: 00020 |  Loss: 0.00087 | Time: 0.0121
+Applying non-negative matrix factorization.
+MDL: 46232.08, Roles: 9
+At epoch: 00020 |  Loss: 0.00084 | Time: 0.0125
+Applying non-negative matrix factorization.
+MDL: 47279.82, Roles: 16
+At epoch: 00020 |  Loss: 0.00098 | Time: 0.0126
+Applying non-negative matrix factorization.
+MDL: 47068.67, Roles: 13
+At epoch: 00020 |  Loss: 0.00096 | Time: 0.0124
+Applying non-negative matrix factorization.
+MDL: 46685.54, Roles: 15
+AUC-ROC @ (ratio = 0.0): 0.8268
+
+At epoch: 00020 |  Loss: 0.00071 | Time: 0.0112
+Applying non-negative matrix factorization.
+MDL: 46149.48, Roles: 16
+At epoch: 00020 |  Loss: 0.00098 | Time: 0.0125
+Applying non-negative matrix factorization.
+MDL: 46847.60, Roles: 11
+At epoch: 00020 |  Loss: 0.00089 | Time: 0.0261
+Applying non-negative matrix factorization.
+MDL: 46301.06, Roles: 16
+At epoch: 00020 |  Loss: 0.00089 | Time: 0.0248
+Applying non-negative matrix factorization.
+MDL: 46555.63, Roles: 10
+At epoch: 00020 |  Loss: 0.00085 | Time: 0.0114
+Applying non-negative matrix factorization.
+MDL: 46038.08, Roles: 13
+At epoch: 00020 |  Loss: 0.00101 | Time: 0.0421
+Applying non-negative matrix factorization.
+MDL: 46423.35, Roles: 11
+At epoch: 00020 |  Loss: 0.00095 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 46028.80, Roles: 15
+At epoch: 00020 |  Loss: 0.00090 | Time: 0.0120
+Applying non-negative matrix factorization.
+MDL: 46791.73, Roles: 14
+At epoch: 00020 |  Loss: 0.00100 | Time: 0.0111
+Applying non-negative matrix factorization.
+MDL: 46342.11, Roles: 16
+At epoch: 00020 |  Loss: 0.00073 | Time: 0.0120
+Applying non-negative matrix factorization.
+MDL: 46191.73, Roles: 10
+AUC-ROC @ (ratio = 0.2): 0.8366
+
+At epoch: 00020 |  Loss: 0.00107 | Time: 0.0122
+Applying non-negative matrix factorization.
+MDL: 46369.31, Roles: 14
+At epoch: 00020 |  Loss: 0.00089 | Time: 0.0124
+Applying non-negative matrix factorization.
+MDL: 46506.86, Roles: 9
+At epoch: 00020 |  Loss: 0.00095 | Time: 0.0124
+Applying non-negative matrix factorization.
+MDL: 46124.45, Roles: 15
+At epoch: 00020 |  Loss: 0.00078 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 46314.77, Roles: 15
+At epoch: 00020 |  Loss: 0.00101 | Time: 0.0112
+Applying non-negative matrix factorization.
+MDL: 46414.83, Roles: 15
+At epoch: 00020 |  Loss: 0.00102 | Time: 0.0207
+Applying non-negative matrix factorization.
+MDL: 46304.09, Roles: 9
+At epoch: 00020 |  Loss: 0.00104 | Time: 0.0186
+Applying non-negative matrix factorization.
+MDL: 46400.60, Roles: 14
+At epoch: 00020 |  Loss: 0.00087 | Time: 0.0119
+Applying non-negative matrix factorization.
+MDL: 46476.01, Roles: 13
+At epoch: 00020 |  Loss: 0.00126 | Time: 0.0476
+Applying non-negative matrix factorization.
+MDL: 46944.71, Roles: 15
+At epoch: 00020 |  Loss: 0.00096 | Time: 0.0114
+Applying non-negative matrix factorization.
+MDL: 46321.99, Roles: 16
+AUC-ROC @ (ratio = 0.4): 0.8098
+
+At epoch: 00020 |  Loss: 0.00083 | Time: 0.0116
+Applying non-negative matrix factorization.
+MDL: 46188.29, Roles: 14
+At epoch: 00020 |  Loss: 0.00077 | Time: 0.0112
+Applying non-negative matrix factorization.
+MDL: 46412.07, Roles: 13
+At epoch: 00020 |  Loss: 0.00103 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 46019.56, Roles: 16
+At epoch: 00020 |  Loss: 0.00085 | Time: 0.0120
+Applying non-negative matrix factorization.
+MDL: 46667.81, Roles: 14
+At epoch: 00020 |  Loss: 0.00077 | Time: 0.0124
+Applying non-negative matrix factorization.
+MDL: 46403.42, Roles: 7
+At epoch: 00020 |  Loss: 0.00076 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 46471.83, Roles: 15
+At epoch: 00020 |  Loss: 0.00113 | Time: 0.0111
+Applying non-negative matrix factorization.
+MDL: 46189.01, Roles: 15
+At epoch: 00020 |  Loss: 0.00090 | Time: 0.0636
+Applying non-negative matrix factorization.
+MDL: 45987.31, Roles: 12
+At epoch: 00020 |  Loss: 0.00088 | Time: 0.0112
+Applying non-negative matrix factorization.
+MDL: 45573.44, Roles: 16
+At epoch: 00020 |  Loss: 0.00093 | Time: 0.0112
+Applying non-negative matrix factorization.
+MDL: 46227.07, Roles: 16
+AUC-ROC @ (ratio = 0.6): 0.8151
+
+At epoch: 00020 |  Loss: 0.00087 | Time: 0.0121
+Applying non-negative matrix factorization.
+MDL: 46354.06, Roles: 16
+At epoch: 00020 |  Loss: 0.00094 | Time: 0.0120
+Applying non-negative matrix factorization.
+MDL: 46230.70, Roles: 12
+At epoch: 00020 |  Loss: 0.00081 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 45307.01, Roles: 14
+At epoch: 00020 |  Loss: 0.00084 | Time: 0.0122
+Applying non-negative matrix factorization.
+MDL: 46670.67, Roles: 7
+At epoch: 00020 |  Loss: 0.00082 | Time: 0.0124
+Applying non-negative matrix factorization.
+MDL: 46573.32, Roles: 9
+At epoch: 00020 |  Loss: 0.00081 | Time: 0.0120
+Applying non-negative matrix factorization.
+MDL: 45978.09, Roles: 10
+At epoch: 00020 |  Loss: 0.00092 | Time: 0.0750
+Applying non-negative matrix factorization.
+MDL: 45908.73, Roles: 16
+At epoch: 00020 |  Loss: 0.00097 | Time: 0.0110
+Applying non-negative matrix factorization.
+MDL: 46816.81, Roles: 4
+At epoch: 00020 |  Loss: 0.00094 | Time: 0.0120
+Applying non-negative matrix factorization.
+MDL: 46258.36, Roles: 15
+At epoch: 00020 |  Loss: 0.00123 | Time: 0.0113
+Applying non-negative matrix factorization.
+MDL: 46017.95, Roles: 16
+AUC-ROC @ (ratio = 0.8): 0.7734
+
+Traceback (most recent call last):
+  File "run.py", line 32, in <module>
+    rob.calculate()
+  File "/home/aman.gupta.cse15.iitbhu/roles/metrics.py", line 79, in calculate
+    self.x_values = numpy.append(self.x_values,self.kfold (edges_new , self.nodes))
+  File "/home/aman.gupta.cse15.iitbhu/roles/metrics.py", line 95, in kfold
+    feat_mat,role_mat = train(data,self.device,self.method)
+  File "/home/aman.gupta.cse15.iitbhu/roles/train.py", line 63, in train
+    encoder.train()
+  File "/home/aman.gupta.cse15.iitbhu/roles/train.py", line 28, in train
+    loss.backward()
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/tensor.py", line 198, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/autograd/__init__.py", line 100, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: CUDA out of memory. Tried to allocate 210.00 MiB (GPU 0; 15.75 GiB total capacity; 1.03 GiB already allocated; 128.56 MiB free; 1.24 GiB reserved in total by PyTorch) (malloc at /pytorch/c10/cuda/CUDACachingAllocator.cpp:289)
+frame #0: c10::Error::Error(c10::SourceLocation, std::string const&) + 0x46 (0x2b8a809a4536 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x1cf1e (0x2b8a80764f1e in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libc10_cuda.so)
+frame #2: <unknown function> + 0x1df9e (0x2b8a80765f9e in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libc10_cuda.so)
+frame #3: at::native::empty_cuda(c10::ArrayRef<long>, c10::TensorOptions const&, c10::optional<c10::MemoryFormat>) + 0x135 (0x2b8a4b830fd5 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xf9310b (0x2b8a49e2910b in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: <unknown function> + 0xfdc9f7 (0x2b8a49e729f7 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: <unknown function> + 0x1075389 (0x2b8a3b16f389 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0x10756c7 (0x2b8a3b16f6c7 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #8: <unknown function> + 0xe3c42e (0x2b8a3af3642e in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #9: at::TensorIterator::fast_set_up() + 0x5cf (0x2b8a3af372af in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #10: at::TensorIterator::build() + 0x4c (0x2b8a3af37b6c in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #11: at::TensorIterator::binary_op(at::Tensor&, at::Tensor const&, at::Tensor const&, bool) + 0x146 (0x2b8a3af38216 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #12: at::native::mul(at::Tensor const&, at::Tensor const&) + 0x3a (0x2b8a3ac57eba in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #13: <unknown function> + 0xf8f998 (0x2b8a49e25998 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cuda.so)
+frame #14: <unknown function> + 0x10c3ec0 (0x2b8a3b1bdec0 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #15: <unknown function> + 0x2d2e779 (0x2b8a3ce28779 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #16: <unknown function> + 0x10c3ec0 (0x2b8a3b1bdec0 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #17: at::Tensor::mul(at::Tensor const&) const + 0xf0 (0x2b8a39753950 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_python.so)
+frame #18: torch::autograd::generated::PowBackward0::apply(std::vector<at::Tensor, std::allocator<at::Tensor> >&&) + 0x1a6 (0x2b8a3c9bda06 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #19: <unknown function> + 0x2d89c05 (0x2b8a3ce83c05 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #20: torch::autograd::Engine::evaluate_function(std::shared_ptr<torch::autograd::GraphTask>&, torch::autograd::Node*, torch::autograd::InputBuffer&) + 0x16f3 (0x2b8a3ce80f03 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #21: torch::autograd::Engine::thread_main(std::shared_ptr<torch::autograd::GraphTask> const&, bool) + 0x3d2 (0x2b8a3ce81ce2 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #22: torch::autograd::Engine::thread_init(int) + 0x39 (0x2b8a3ce7a359 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_cpu.so)
+frame #23: torch::autograd::python::PythonEngine::thread_init(int) + 0x38 (0x2b8a39511378 in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/lib/libtorch_python.so)
+frame #24: <unknown function> + 0xee0f (0x2b8a38bebe0f in /home/aman.gupta.cse15.iitbhu/.conda/envs/roles/lib/python3.6/site-packages/torch/_C.cpython-36m-x86_64-linux-gnu.so)
+frame #25: <unknown function> + 0x7dd5 (0x2b8a2ef11dd5 in /lib64/libpthread.so.0)
+frame #26: clone + 0x6d (0x2b8a2f22402d in /lib64/libc.so.6)
+
