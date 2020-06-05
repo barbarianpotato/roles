@@ -14,3 +14,34 @@ SLURM_NTASKS = 1
 SLURM_TASK_PID = 74040
 ==========================================
 gpu001
+Computing device:  cuda:0
+----------------------------------------------
+Dataset:  GrQc_U
+Nodes:  5242
+----------------------------------------------
+Computing precision & AUC-ROC.
+
+Epoch: 00001 |  Loss: 0.03379 | Time: 0.0630
+Epoch: 00002 |  Loss: 0.02361 | Time: 0.0100
+Epoch: 00003 |  Loss: 0.01634 | Time: 0.0100
+Epoch: 00004 |  Loss: 0.01103 | Time: 0.0099
+Epoch: 00005 |  Loss: 0.00718 | Time: 0.0099
+Epoch: 00006 |  Loss: 0.00454 | Time: 0.0099
+Epoch: 00007 |  Loss: 0.00289 | Time: 0.0099
+Epoch: 00008 |  Loss: 0.00198 | Time: 0.0099
+Epoch: 00009 |  Loss: 0.00146 | Time: 0.0099
+Epoch: 00010 |  Loss: 0.00123 | Time: 0.0099
+Epoch: 00011 |  Loss: 0.00109 | Time: 0.0099
+Epoch: 00012 |  Loss: 0.00105 | Time: 0.0099
+Epoch: 00013 |  Loss: 0.00102 | Time: 0.0099
+Epoch: 00014 |  Loss: 0.00101 | Time: 0.0099
+Epoch: 00015 |  Loss: 0.00100 | Time: 0.0099
+Epoch: 00016 |  Loss: 0.00100 | Time: 0.0099
+Epoch: 00017 |  Loss: 0.00099 | Time: 0.0099
+Epoch: 00018 |  Loss: 0.00099 | Time: 0.0099
+Epoch: 00019 |  Loss: 0.00099 | Time: 0.0099
+Epoch: 00020 |  Loss: 0.00099 | Time: 0.0099
+Applying non-negative matrix factorization.
+MDL: 45936.60, Roles: 10
+Calculating similarity between nodes...
+PREC : 0.381180  |  AUC-ROC : 0.847764
